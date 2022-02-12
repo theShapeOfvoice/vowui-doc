@@ -6,7 +6,7 @@ permalink: /pages/666d1f33ac4bf708
 
 # 快速创建 SpringBoot 项目
 
-### 通过 spring initializr 创建
+### 通过 `spring initializr` 创建
 
 配置的网址：`https://start.spring.io/`
 
