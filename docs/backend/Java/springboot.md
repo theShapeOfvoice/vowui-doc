@@ -12,7 +12,7 @@ permalink: /pages/666d1f33ac4bf708
 
 配置好了之后会生成一个压缩包，里面已经初始化了基本的项目结构。
 
-### 通过 IDEA 来创建项目
+### 通过 `IDEA` 来创建项目
 
 `File` -> `New` -> `Project` -> `Spring Initializr` -> 一步步往下配置就行。
 
