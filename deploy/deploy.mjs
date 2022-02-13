@@ -11,7 +11,7 @@ await $ `docker ps -a -f "name=^${projectName}-container" --format="{{.Names}}" 
 console.log("销毁docker镜像成功")
 
 console.log("开始创建 docker 容器")
-await $ `docker run -d -p 443:80 --name ${projectName}-container  ${projectName}-image:latest`
+await $ `docker run -d -p 8889:80 --name ${projectName}-container  ${projectName}-image:latest`
 console.log("创建 docker 容器成功")
 
 console.log('deploy success')
