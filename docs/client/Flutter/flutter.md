@@ -2,16 +2,16 @@
 title: flutter基础
 date: 2020-05-14 23:01:07
 permalink: /pages/3655851b45ea004c
----
-# flutter基础
+---`
+# `flutter`基础
 
-### 如何快速新建flutter项目
+### 如何快速新建`flutter`项目
 
 - 安装好开发环境
-- flutter create project_name
-- flutter run 
+- `flutter create project_name`
+- `flutter run`
 
-### statelessWidget、StatefulWidget
+### `statelessWidget`、`StatefulWidget`
 
 - `StatelessWidget`用于不需要维护状态的场景
 
