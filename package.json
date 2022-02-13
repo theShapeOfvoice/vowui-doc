@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "deploy":"npx zx ./deploy/deploy.mjs"
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,9 @@
   },
   "homepage": "https://github.com/juzi214032/lin-ui-doc#readme",
   "devDependencies": {
-    "vuepress": "^1.5.0",
-    "vuepress-plugin-medium-zoom": "^1.1.8"
+    "vuepress": "1.5.0",
+    "vuepress-plugin-medium-zoom": "^1.1.8",
+    "zx": "^5.0.0"
   },
   "dependencies": {
     "vuepress-plugin-code-copy": "^1.0.6"
