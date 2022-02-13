@@ -60,7 +60,7 @@ module.exports = {
       '/frontend/':[
         {
           title: 'Vue',
-          children: ['Vue/vue项目性能优化'],
+          children: ['Vue/vue项目性能优化','Vue/vue插件'],
         },
       ],
       '/backend/':[
